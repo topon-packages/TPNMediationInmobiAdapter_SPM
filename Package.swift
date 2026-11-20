@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package.git", exact: "11.4.1")
+        .package(url: "https://github.com/InMobi/InMobiSDK-Swift-Package.git", exact: "11.5.0")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkInmobiAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkInmobiAdapter/11.4.1.2.9/AnyThinkInmobiAdapter-11.4.1.2.9.zip",
-            checksum: "dc4ed2a4d7b6db7bf2f3639a50e5db8e4754c1e155742f08614ef889ec41d368"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkInmobiAdapter/110500.2.10/AnyThinkInmobiAdapter-110500.2.10.zip",
+            checksum: "09a1f00e889b98dbe9721a9702f8b738a4ca211d03d3739d8b80e69490434645"
         ),
         .target(
             name: "TPNMediationInmobiAdapterTarget",
